@@ -1,0 +1,4 @@
+include ':framework'
+include ':plugins'
+include 'Java'
+

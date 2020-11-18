@@ -1,0 +1,6 @@
+# List of plugins to be registered by framework.
+# Provide fully qualified class names here ( edu.cmu.cs.cs214.hw5.plugin.XXX ),
+# with one plugin per line.
+edu.cmu.cs.cs214.hw5.plugin.DummyMediaPlugin
+edu.cmu.cs.cs214.hw5.plugin.DummyMediaPluginOne
+edu.cmu.cs.cs214.hw5.plugin.DummyMediaPluginTwo

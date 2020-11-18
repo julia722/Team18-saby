@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'application'
+
+mainClassName = 'edu.cmu.cs.cs214.hw5.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':framework')
+}
+
+jar {
+    from ('./src/main') {
+        include 'META-INF/services/edu.cmu.cs.cs214.hw5.core.MediaPlugin'
+    }
+}
+
+

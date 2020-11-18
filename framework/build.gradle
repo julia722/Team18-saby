@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+apply plugin: 'application'
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+}
+dependencies {
+    compile group: 'de.julielab', name: 'aliasi-lingpipe', version: '4.1.2-JL1.0'
+}
